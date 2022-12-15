@@ -7,7 +7,7 @@ def drawPersegi(xPos,yPos,lebar):
     t.goto(xPos,yPos)
     t.down()
 
-t.screen.bgcolor('blue')
+t.screen.bgcolor('purple')
 
 drawPersegi(0,0,200)
 drawPersegi(-150,0,200)
@@ -23,7 +23,7 @@ t.circle(40,-150)
 drawPersegi(0,20,200)
 drawPersegi(0,0,200)
 
-t.goto(0,0)
+t.goto(-70,20)
 t.pensize(15)
 t.color('white')
 t.right(45)
